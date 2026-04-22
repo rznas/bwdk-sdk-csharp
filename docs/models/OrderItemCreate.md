@@ -12,8 +12,8 @@ Name | Type | Description | Notes
 **DiscountAmount** | **int** | مبلغ کل تخفیف برای این کالا (به تومان) | [optional] 
 **TaxAmount** | **int** | مبلغ کل مالیات برای این کالا (به تومان) | [optional] 
 **ImageLink** | **string** | آدرس تصویر محصول | [optional] 
-**PreparationTime** | **int** | زمان آمادهسازی کالا (به روز) | [optional] [default to 2]
-**Weight** | **double** | وزن کالا (بر حسب گرم) | [optional] 
+**PreparationTime** | **int** | Preparation time for the item (in days) | [optional] [default to 2]
+**Weight** | **double** | Weight of the item (in grams) | [optional] 
 
 [[Back to Model list]](../../README.md#documentation-for-models) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to README]](../../README.md)
 

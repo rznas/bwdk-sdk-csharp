@@ -4,7 +4,10 @@ README.md
 api/openapi.yaml
 appveyor.yml
 bwdk_sdk.sln
-docs/apis/DefaultApi.md
+docs/apis/MerchantOrdersApi.md
+docs/apis/MerchantWalletApi.md
+docs/apis/OrderShippingApi.md
+docs/apis/SellerProfileManagementApi.md
 docs/models/AuthStatusResponse.md
 docs/models/BusinessAddress.md
 docs/models/DeliveryTimeRangeDisplay.md
@@ -39,8 +42,11 @@ docs/models/WalletBalance.md
 docs/scripts/git_push.ps1
 docs/scripts/git_push.sh
 src/bwdk_sdk.Test/Api/ApiTestsBase.cs
-src/bwdk_sdk.Test/Api/DefaultApiTests.cs
 src/bwdk_sdk.Test/Api/DependencyInjectionTests.cs
+src/bwdk_sdk.Test/Api/MerchantOrdersApiTests.cs
+src/bwdk_sdk.Test/Api/MerchantWalletApiTests.cs
+src/bwdk_sdk.Test/Api/OrderShippingApiTests.cs
+src/bwdk_sdk.Test/Api/SellerProfileManagementApiTests.cs
 src/bwdk_sdk.Test/Model/AuthStatusResponseTests.cs
 src/bwdk_sdk.Test/Model/BusinessAddressTests.cs
 src/bwdk_sdk.Test/Model/DeliveryTimeRangeDisplayTests.cs
@@ -74,8 +80,11 @@ src/bwdk_sdk.Test/Model/VerifyOrderTests.cs
 src/bwdk_sdk.Test/Model/WalletBalanceTests.cs
 src/bwdk_sdk.Test/README.md
 src/bwdk_sdk.Test/bwdk_sdk.Test.csproj
-src/bwdk_sdk/Api/DefaultApi.cs
 src/bwdk_sdk/Api/IApi.cs
+src/bwdk_sdk/Api/MerchantOrdersApi.cs
+src/bwdk_sdk/Api/MerchantWalletApi.cs
+src/bwdk_sdk/Api/OrderShippingApi.cs
+src/bwdk_sdk/Api/SellerProfileManagementApi.cs
 src/bwdk_sdk/Client/ApiException.cs
 src/bwdk_sdk/Client/ApiFactory.cs
 src/bwdk_sdk/Client/ApiKeyToken.cs
